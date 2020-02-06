@@ -36,11 +36,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eldor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37S-z6-8xV">
+                                <rect key="frame" x="20" y="132" width="374" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="37S-z6-8xV" firstAttribute="leading" secondItem="fo7-vV-ese" secondAttribute="leading" constant="20" id="B8i-Jh-HHS"/>
                             <constraint firstItem="fo7-vV-ese" firstAttribute="trailing" secondItem="rfK-kf-wAb" secondAttribute="trailing" constant="20" id="Nue-i1-qq2"/>
                             <constraint firstItem="rfK-kf-wAb" firstAttribute="leading" secondItem="fo7-vV-ese" secondAttribute="leading" constant="20" id="P9T-Th-DF0"/>
+                            <constraint firstItem="fo7-vV-ese" firstAttribute="trailing" secondItem="37S-z6-8xV" secondAttribute="trailing" constant="20" id="Pbs-jX-yQe"/>
+                            <constraint firstItem="37S-z6-8xV" firstAttribute="top" secondItem="rfK-kf-wAb" secondAttribute="bottom" constant="20" id="UeG-7M-tLU"/>
                             <constraint firstItem="rfK-kf-wAb" firstAttribute="top" secondItem="fo7-vV-ese" secondAttribute="top" constant="20" id="cUl-8F-H6W"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fo7-vV-ese"/>
