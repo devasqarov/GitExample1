@@ -46,6 +46,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath) as! MyCell
+        let redview = cell.viewWithTag(3)!
+        redview.backgroundColor = .black
+    }
+    
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cell.transform = CGAffineTransform(translationX: -cell.frame.width+20, y: 0)
@@ -57,6 +63,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 //            cell.alpha = 1
 //        }, completion: nil)
 //
+        
+        
         
         
         
