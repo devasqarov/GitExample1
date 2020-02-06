@@ -66,9 +66,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         
         
-        
-        
-        UIView.animate(withDuration: 0.5, delay: 0.1, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
+        UIView.animate(withDuration: 0.8, delay: 0.2, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
             cell.transform = .identity
             cell.alpha = 1
         }, completion: nil)
