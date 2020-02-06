@@ -13,8 +13,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var tableView: UITableView!
     
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
