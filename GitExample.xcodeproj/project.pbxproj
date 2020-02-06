@@ -13,6 +13,8 @@
 		F2FB888C23EC52CF00F2A0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB888A23EC52CF00F2A0D5 /* Main.storyboard */; };
 		F2FB888E23EC52D200F2A0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FB888D23EC52D200F2A0D5 /* Assets.xcassets */; };
 		F2FB889123EC52D200F2A0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB888F23EC52D200F2A0D5 /* LaunchScreen.storyboard */; };
+		F2FB889A23EC534400F2A0D5 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB889823EC534400F2A0D5 /* MyCell.swift */; };
+		F2FB889B23EC534400F2A0D5 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2FB889923EC534400F2A0D5 /* MyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F2FB888D23EC52D200F2A0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2FB889023EC52D200F2A0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2FB889223EC52D200F2A0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FB889823EC534400F2A0D5 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		F2FB889923EC534400F2A0D5 /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F2FB888D23EC52D200F2A0D5 /* Assets.xcassets */,
 				F2FB888F23EC52D200F2A0D5 /* LaunchScreen.storyboard */,
 				F2FB889223EC52D200F2A0D5 /* Info.plist */,
+				F2FB889823EC534400F2A0D5 /* MyCell.swift */,
+				F2FB889923EC534400F2A0D5 /* MyCell.xib */,
 			);
 			path = GitExample;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2FB889123EC52D200F2A0D5 /* LaunchScreen.storyboard in Resources */,
+				F2FB889B23EC534400F2A0D5 /* MyCell.xib in Resources */,
 				F2FB888E23EC52D200F2A0D5 /* Assets.xcassets in Resources */,
 				F2FB888C23EC52CF00F2A0D5 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2FB888923EC52CF00F2A0D5 /* ViewController.swift in Sources */,
+				F2FB889A23EC534400F2A0D5 /* MyCell.swift in Sources */,
 				F2FB888523EC52CF00F2A0D5 /* AppDelegate.swift in Sources */,
 				F2FB888723EC52CF00F2A0D5 /* SceneDelegate.swift in Sources */,
 			);
