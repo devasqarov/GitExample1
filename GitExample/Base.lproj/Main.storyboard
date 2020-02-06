@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -42,15 +42,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shakhzod" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uJ-b8-XAT">
+                                <rect key="frame" x="20" y="181" width="374" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="3uJ-b8-XAT" firstAttribute="top" secondItem="37S-z6-8xV" secondAttribute="bottom" constant="20" id="3hA-fI-Tu2"/>
                             <constraint firstItem="37S-z6-8xV" firstAttribute="leading" secondItem="fo7-vV-ese" secondAttribute="leading" constant="20" id="B8i-Jh-HHS"/>
+                            <constraint firstItem="fo7-vV-ese" firstAttribute="trailing" secondItem="3uJ-b8-XAT" secondAttribute="trailing" constant="20" id="GVU-Nf-c7N"/>
                             <constraint firstItem="fo7-vV-ese" firstAttribute="trailing" secondItem="rfK-kf-wAb" secondAttribute="trailing" constant="20" id="Nue-i1-qq2"/>
                             <constraint firstItem="rfK-kf-wAb" firstAttribute="leading" secondItem="fo7-vV-ese" secondAttribute="leading" constant="20" id="P9T-Th-DF0"/>
                             <constraint firstItem="fo7-vV-ese" firstAttribute="trailing" secondItem="37S-z6-8xV" secondAttribute="trailing" constant="20" id="Pbs-jX-yQe"/>
                             <constraint firstItem="37S-z6-8xV" firstAttribute="top" secondItem="rfK-kf-wAb" secondAttribute="bottom" constant="20" id="UeG-7M-tLU"/>
                             <constraint firstItem="rfK-kf-wAb" firstAttribute="top" secondItem="fo7-vV-ese" secondAttribute="top" constant="20" id="cUl-8F-H6W"/>
+                            <constraint firstItem="3uJ-b8-XAT" firstAttribute="leading" secondItem="fo7-vV-ese" secondAttribute="leading" constant="20" id="hY4-JG-SbH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fo7-vV-ese"/>
                     </view>
