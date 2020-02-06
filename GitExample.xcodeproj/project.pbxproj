@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D94EC6023EC697000B52432 /* TaqiyClassOrStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94EC5F23EC697000B52432 /* TaqiyClassOrStruct.swift */; };
 		F2FB888523EC52CF00F2A0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB888423EC52CF00F2A0D5 /* AppDelegate.swift */; };
 		F2FB888723EC52CF00F2A0D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB888623EC52CF00F2A0D5 /* SceneDelegate.swift */; };
 		F2FB888923EC52CF00F2A0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB888823EC52CF00F2A0D5 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D94EC5F23EC697000B52432 /* TaqiyClassOrStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaqiyClassOrStruct.swift; sourceTree = "<group>"; };
 		F2FB888123EC52CF00F2A0D5 /* GitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2FB888423EC52CF00F2A0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2FB888623EC52CF00F2A0D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				F2FB889223EC52D200F2A0D5 /* Info.plist */,
 				F2FB889823EC534400F2A0D5 /* MyCell.swift */,
 				F2FB889923EC534400F2A0D5 /* MyCell.xib */,
+				8D94EC5F23EC697000B52432 /* TaqiyClassOrStruct.swift */,
 			);
 			path = GitExample;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				F2FB889A23EC534400F2A0D5 /* MyCell.swift in Sources */,
 				F2FB888523EC52CF00F2A0D5 /* AppDelegate.swift in Sources */,
 				F2FB888723EC52CF00F2A0D5 /* SceneDelegate.swift in Sources */,
+				8D94EC6023EC697000B52432 /* TaqiyClassOrStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
