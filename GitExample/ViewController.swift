@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         tableView.separatorStyle = .none
         
-        print("Hell world")
+        print("Shakhzod")
         
         // Do any additional setup after loading the view.
     }
