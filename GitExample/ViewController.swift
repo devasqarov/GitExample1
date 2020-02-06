@@ -48,19 +48,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        cell.transform = CGAffineTransform(scaleX: 0.8, y: 0.8).rotated(by: .pi/18)
+        cell.transform = CGAffineTransform(translationX: -cell.frame.width+20, y: 0)
         cell.alpha = 0.6
         
-        let redView = cell.viewWithTag(3)!
-        UIView.transition(with: redView, duration: 0.5, options: .transitionFlipFromTop, animations: {
-            cell.transform = .identity
-            cell.alpha = 1
-        }, completion: nil)
-        
-//        UIView.animate(withDuration: 0.5, delay: 0.1, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
+//        let redView = cell.viewWithTag(3)!
+//        UIView.transition(with: redView, duration: 0.5, options: .transitionFlipFromTop, animations: {
 //            cell.transform = .identity
 //            cell.alpha = 1
 //        }, completion: nil)
+//
+        
+        
+        
+        UIView.animate(withDuration: 0.5, delay: 0.1, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
+            cell.transform = .identity
+            cell.alpha = 1
+        }, completion: nil)
         
     }
     
